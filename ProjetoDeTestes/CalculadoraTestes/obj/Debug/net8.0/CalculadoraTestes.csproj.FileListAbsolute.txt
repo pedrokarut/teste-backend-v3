@@ -103,3 +103,4 @@ C:\Users\pkgimenez\ProjetosPessoais\ProjetoDeTestes\CalculadoraTestes\obj\Debug\
 C:\Users\pkgimenez\ProjetosPessoais\ProjetoDeTestes\CalculadoraTestes\obj\Debug\net8.0\CalculadoraTestes.pdb
 C:\Users\pkgimenez\ProjetosPessoais\ProjetoDeTestes\CalculadoraTestes\obj\Debug\net8.0\CalculadoraTestes.genruntimeconfig.cache
 C:\Users\pkgimenez\ProjetosPessoais\ProjetoDeTestes\CalculadoraTestes\obj\Debug\net8.0\ref\CalculadoraTestes.dll
+C:\Users\pkgimenez\ProjetosPessoais\ProjetoDeTestes\CalculadoraTestes\obj\Debug\net8.0\CalculadoraTestes.sourcelink.json
