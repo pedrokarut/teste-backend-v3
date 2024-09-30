@@ -25,4 +25,25 @@ public class CalculadoraTestes
         //Assert - verificar o resultado do metodo 
         Assert.Equal(15, resultado);
     }
+
+    [Fact]
+    public void DeveVerificarSe4EhPar()
+    {
+        //Arrange 
+        int numero = 4;
+
+        //Act
+        bool resultado = _calc.EhPar(numero);
+
+        //Assert 
+        Assert.True(resultado);
+    }
+
+    [Theory]
+    [InlineData(new int[] {2,4,6,8,10})]
+    public void DeveVerificarSeSaoPares(int[] nums)
+    {
+        //verifica todos de uma vez só via lista
+        Assert.All(nums, x => Assert.True(_calc.EhPar(x)));
+    }
 }
